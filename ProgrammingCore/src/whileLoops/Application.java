@@ -16,10 +16,12 @@ public class Application {
 		int value2 = 0;
 		
 		/*Loop*/
-		
+		//Condição - enquanto value2 for menor que 10 entao...
 		while(value2  < 10)
 		{
+			//imprima hello + value2
 			System.out.println("Hello" + value2);
+			//acrescente +1 na minha variavel value2
 			value2 = value2 + 1;
 		}
 		
