@@ -47,13 +47,13 @@ public class Application {
 		
 		//for coluna
 		/*1- Declarando um variavel antes do incio do loop chamada coluna
-		 *2- coluna ir percorrer até o tamanho maximo da posição atual da linha
+		 *2- coluna ir percorrer até o tamanho maximo da linha
 		 *3- coluna incrementa +1 a cada posição percorrida*/
 		
 		
 		//estou dentro da linha X entao vou
 		for(int linha=0; linha < grid.length; linha++) {
-			//percorrer todos os valores(de cada coluna) dentro dessa linha até o fim da linha
+			//percorrer todos os valores de cada coluna dentro dessa linha até o fim da linha
 			for(int coluna=0; coluna < grid[linha].length; coluna++ ) {
 				//imrpimindo o array da posição atual da linha e coluna
 				System.out.print(grid[linha][coluna]+" ");
